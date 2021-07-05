@@ -3,9 +3,13 @@ body{
     text-align: center;
     margin: 0;
     background-color: #efefef;
+    font-size: 18px;
 }
 h1{
     font-size: 40px;
+}
+h4, h5{
+    font-family: 'Montserrat', sans-serif;
 }
 a{
     text-decoration: none;
@@ -13,9 +17,9 @@ a{
 }
 footer{
     background-color: black;
-    color: white;
-    height: 5rem;
-    padding-top: 1vw;
+    color: gray;
+    /* height: 5rem; */
+    padding-top: 1rem;
 }
 
 .flexContainer{
@@ -38,23 +42,31 @@ footer{
     width: 25%;
     padding: 18px 18px;
     margin: 0 2.5%;
-    margin-bottom: 5%;
 }
+
 .w-oneThird img{
     width: 100% ;
     border-radius: 5%;
+}
+.w-oneThird img:hover{
+    opacity: 70%;
+}
+.highlight:hover{
+    font-size: 46px;
+    color:tomato;
+    margin-bottom: 0;
 }
 .border-round{
     border-radius: 5%;
 }
 .shadow{
-    box-shadow: -2px -5px 10px rgb(126, 124, 124);
+    box-shadow: -2px 5px 10px rgb(99, 97, 97);
 }
 .paragraph{
     font-size: 24px;
 }
 .link-btn{
-    background:linear-gradient(90deg, blue, #efefef);
+    background:linear-gradient(45deg, #93A3A1, #b99c9c);
     color: black;
     border-radius: 5px;
     text-decoration: none;
@@ -63,11 +75,19 @@ footer{
     padding: 10px 40px;
     transition: 0.5s;
     margin-bottom: 50px;
+    transition: .7s;
+}
+.link-btn:hover{
+    background:linear-gradient(45deg, #b99c9c, #93A3A1 );
+    box-shadow: 2px -2px 2px #2e3d3b;
 }
 
 #sectionBG{
-    background-image: url(images/Interior.jpg);
+    background-image: url(images/Interior.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 80%; */
+    /* color: white; */
 }
 #bonusSection{
     padding: 5% 20%;
