@@ -1,0 +1,75 @@
+body{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: #efefef;
+}
+h1{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 5rem;
+    padding-top: 1vw;
+}
+
+.flexContainer{
+    display: flex;
+    padding: 0 5%;
+}
+.w-half{
+    width: 50%;
+    padding-left: 5%;
+    margin: 5%;
+}
+.w-half img{
+    width: 100%;
+    padding-top: 25%;
+}
+#sectionBG{
+    background: linear-gradient(90deg, white, brown);
+}
+.w-oneThird{
+    width: 25%;
+    padding: 18px 18px;
+    margin: 0 2.5%;
+    margin-bottom: 5%;
+}
+.w-oneThird img{
+    width: 100% ;
+    border-radius: 5%;
+}
+.border-round{
+    border-radius: 5%;
+}
+.shadow{
+    box-shadow: -2px -5px 10px rgb(126, 124, 124);
+}
+.paragraph{
+    font-size: 24px;
+}
+.link-btn{
+    background:linear-gradient(90deg, blue, #efefef);
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: 900;   
+    padding: 10px 40px;
+    transition: 0.5s;
+    margin-bottom: 50px;
+}
+
+#sectionBG{
+    background-image: url(images/Interior.jpg);
+    background-repeat: no-repeat;
+}
+#bonusSection{
+    padding: 5% 20%;
+    border-radius: 15%;
+}
