@@ -5,6 +5,11 @@ body{
     background-color: #efefef;
     font-size: 18px;
 }
+nav{
+    position: fixed; 
+    width: 100%; 
+    z-index: 1;
+}
 h1{
     font-size: 40px;
 }
@@ -15,11 +20,33 @@ a{
     text-decoration: none;
     color: black;
 }
+nav ul{
+    text-align: end;
+    list-style-type: none;
+    padding: 20px 0; 
+    margin:0;
+    background-color: black;
+    width: 100%;
+}
+li{
+    display: inline;
+    /* float: right; */
+}
+li a{
+    padding: 20px;
+    margin: 0 ;
+    color: white;
+    /* display: block; */
+    /* background-color: rgb(24, 41, 41); */
+}
+li a:hover{
+    color: tomato;
+}
 footer{
     background-color: black;
     color: gray;
     /* height: 5rem; */
-    padding-top: 1rem;
+    padding: 2rem 0 ;
 }
 
 .flexContainer{
@@ -46,7 +73,7 @@ footer{
 
 .w-oneThird img{
     width: 100% ;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 .w-oneThird img:hover{
     opacity: 70%;
@@ -57,7 +84,7 @@ footer{
     margin-bottom: 0;
 }
 .border-round{
-    border-radius: 5%;
+    border-radius: 20px;
 }
 .shadow{
     box-shadow: -2px 5px 10px rgb(99, 97, 97);
@@ -67,29 +94,32 @@ footer{
 }
 .link-btn{
     background:linear-gradient(45deg, #93A3A1, #b99c9c);
-    color: black;
-    border-radius: 5px;
+    color: rgb(71, 69, 69);
+    border-radius: 20px;
     text-decoration: none;
     font-family: monospace;
     font-weight: 900;   
     padding: 10px 40px;
     transition: 0.5s;
     margin-bottom: 50px;
-    transition: .7s;
+    transition: .6s;
 }
 .link-btn:hover{
-    background:linear-gradient(45deg, #b99c9c, #93A3A1 );
-    box-shadow: 2px -2px 2px #2e3d3b;
+    background:linear-gradient(45deg, #b68888, #7d9b97 );
+    box-shadow: -2px 2px 2px #2e3d3b;
+    color: white;
+}
+.border-bottom{
+    border-bottom: 3px solid black;
+    text-align: left;
 }
 
-#sectionBG{
-    background-image: url(images/Interior.png);
+#about{
+    background-image: url(images/sectionBG.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 80%; */
-    /* color: white; */
 }
-#bonusSection{
+#stats{
     padding: 5% 20%;
     border-radius: 15%;
 }

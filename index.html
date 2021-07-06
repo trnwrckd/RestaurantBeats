@@ -15,7 +15,22 @@
 </head>
 <body>
 
-    <section class="flexContainer">
+    <nav style="position: fixed; width: 100%;">
+        <ul>
+            <li style="color: white; float: left;"> 
+                <a href="">
+                    <span style="color: tomato;">RESTAURANT</span> 
+                    <span style="color:gray">BEATS</span>
+                </a>
+            </li>
+            <li> <a href="#home"> HOME </a></li>
+            <li> <a href="#about"> ABOUT </a></li>
+            <li> <a href="#recipes"> RECIPES </a></li>
+            <li> <a href="#stats"> STATS </a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="flexContainer">
         <div class="w-half">
             <h1>This is <br><span style="color: #d43737; font-size: 50px;"> Gil Chesterton</span> from<br>  KACL Talk Radio</h1>
             <p class="paragraph">
@@ -29,25 +44,25 @@
         </div>
     </section>
 
-    <section id = "sectionBG" class="flexContainer">
+    <section id = "about" class="flexContainer">
         <div class="w-half">
-            <!-- <img src="images/ChestertonHeadshot.png" alt=""> -->
+            <img src="images/Ramen.png" alt="">
         </div>
         <div class="w-half">
             <h1> About me</h1>
             <p class= "paragraph">
                 If you've ever tuned into KACL stuck in the traffic, driving home from work - you already know who I am. 
                 I have been one of the most prominent and well-versed food critics that the radio industry has ever been blessed with.
-                For the troubled times when you can't decide which restaurant to go to with your loved ones, do tune in to my show to get some valuable insights. 
+                For the troubled times when you can't decide which restaurant to go to with your loved ones, do tune into my show to get some valuable insights. 
             </p>
-            <a class="link-btn" href="https://frasier.fandom.com/wiki/Gil_Chesterton" target="_blank">More about me</a>
+            <a class="link-btn" href="https://frasier.fandom.com/wiki/Gil_Chesterton" target="_blank">Learn More</a>
         </div>
     </section>
 
-    <section>
-        <div style="padding: 5% 25%;">
+    <section id="recipes">
+        <div style="padding: 2% 25%;">
             <h1> Recipes</h1>
-            <h4> Today I have 3 Chef's Specials for you. <br> Cooking using these recipes will leave you with such a delicious dish that your tastebuds will become awestruck.</h4>
+            <h4> Today I have 3 Chef's Specials for you. <br> Cooking using these recipes will provide you with such a delicious dish that your tastebuds will be left awestruck.</h4>
         </div>
 
         <div class="flexContainer">
@@ -55,29 +70,29 @@
                 <a href="https://www.delish.com/cooking/recipe-ideas/a23515113/how-to-cook-filet-mignon/" target="_blank">
                     <img src="images/filletMignon.png" alt="">
                 </a>
-                <h2>Fillet Mignon</h2>
+                <h2 class="border-bottom">Filet Mignon</h2>
                 <h5> Filet mignon is a French name, with filet meaning thread or strip and mignon meaning small and pretty. </h5>
             </div>
             <div class="w-oneThird border-round shadow">
                 <a href="https://thefoodxp.com/beef-bourguignon-recipe/" target="_blank">
                     <img src="images/BeefBourguignon.png" alt="">
                 </a>
-                <h2>Beef Bourguignon</h2>
+                <h2 class="border-bottom">Beef Bourguignon</h2>
                 <h5>It is a rich slow cooked beef stew, where the beef is braised in red wine with potatoes, carrots, mushrooms, garlic, onions and a bouquet garni (bundle of thyme, parsley and bay leaves).</h5>
             </div>
             <div class="w-oneThird border-round shadow">
                 <a href="https://www.foodandwine.com/recipes/apres-ski-lasagna" target="_blank">
                     <img src="images/Lasagna.png" alt="">
                 </a>
-                <h2>Aprés Ski Lasagna</h2>
+                <h2 class="border-bottom">Aprés Ski Lasagna</h2>
                 <h5>Layers of noodles and sauce, chunky with sausage and beef, and spiced with organic basil, fennel and crushed red pepper, will hit the spot. </h5>
             </div>
         </div>
     </section>
 
     <!-- bonus section -->
-    <section id ="bonusSection" class="">
-        <div class="shadow flexContainer">      
+    <section id ="stats">
+        <div class="shadow flexContainer border-round">      
             <div class="w-oneThird"> 
                 <h1 class="highlight"> 700K</h1>
                 <h4> Listeners Worldwide</h4>
@@ -96,8 +111,7 @@
     <footer>
          <div>
             <h2 style="letter-spacing: 10px;"><span style="color: tomato;">RESTAURANT</span> BEATS </h2>
-            <br> L'appétit vient en mangeant.<br>
-            <small>Appetite comes with eating.</small>
+            <br> L'appétit vient en mangeant - Appetite comes with eating.
 
          </div>
     </footer>
